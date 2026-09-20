@@ -1,0 +1,30 @@
+{
+  "name": "wagmi-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "latest",
+    "antd": "^6.6.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "viem": "latest",
+    "wagmi": "latest",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.10.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@wagmi/cli": "latest",
+    "tailwindcss": "^4.3.3",
+    "typescript": "latest"
+  }
+}
