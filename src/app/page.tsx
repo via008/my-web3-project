@@ -4,6 +4,9 @@ import { EOA_tx } from "./pages/EOA_tx"
 import { Playground } from "./pages/playground"
 import { USDCRead } from "./pages/USDC_read"
 import { USDCWrite } from "./pages/USDC_write"
+import { WalletLab } from "./pages/wallet_lab"
+
+
 
 function App() {
   
@@ -11,7 +14,8 @@ function App() {
       {/* <EOA_tx /> */}
       {/* <USDCRead />
       <USDCWrite /> */}
-      <Playground />
+      {/* <Playground /> */}
+      <WalletLab />
     </div>
   )
 }
